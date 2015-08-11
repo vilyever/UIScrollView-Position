@@ -15,6 +15,8 @@
 		FEF351DE1B79E9080070C6D5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FEF351DD1B79E9080070C6D5 /* Images.xcassets */; };
 		FEF351E11B79E9080070C6D5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FEF351DF1B79E9080070C6D5 /* LaunchScreen.xib */; };
 		FEF351ED1B79E9080070C6D5 /* UIScrollView_PositionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FEF351EC1B79E9080070C6D5 /* UIScrollView_PositionTests.m */; };
+		FEF351FA1B79E91D0070C6D5 /* UIScrollView-Position.podspec in Resources */ = {isa = PBXBuildFile; fileRef = FEF351F61B79E91D0070C6D5 /* UIScrollView-Position.podspec */; };
+		FEF351FD1B79E96F0070C6D5 /* UIScrollView+VDPosition.m in Sources */ = {isa = PBXBuildFile; fileRef = FEF351FC1B79E96F0070C6D5 /* UIScrollView+VDPosition.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +44,9 @@
 		FEF351E61B79E9080070C6D5 /* UIScrollView-PositionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UIScrollView-PositionTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FEF351EB1B79E9080070C6D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FEF351EC1B79E9080070C6D5 /* UIScrollView_PositionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIScrollView_PositionTests.m; sourceTree = "<group>"; };
+		FEF351F61B79E91D0070C6D5 /* UIScrollView-Position.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "UIScrollView-Position.podspec"; sourceTree = "<group>"; };
+		FEF351FB1B79E96F0070C6D5 /* UIScrollView+VDPosition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+VDPosition.h"; sourceTree = "<group>"; };
+		FEF351FC1B79E96F0070C6D5 /* UIScrollView+VDPosition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+VDPosition.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +73,8 @@
 				FEF351CC1B79E9080070C6D5 /* UIScrollView-Position */,
 				FEF351E91B79E9080070C6D5 /* UIScrollView-PositionTests */,
 				FEF351CB1B79E9080070C6D5 /* Products */,
+				FEF351F61B79E91D0070C6D5 /* UIScrollView-Position.podspec */,
+				FEF351F71B79E91D0070C6D5 /* Pod */,
 			);
 			sourceTree = "<group>";
 		};
@@ -120,6 +127,31 @@
 				FEF351EB1B79E9080070C6D5 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FEF351F71B79E91D0070C6D5 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				FEF351F81B79E91D0070C6D5 /* Assets */,
+				FEF351F91B79E91D0070C6D5 /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		FEF351F81B79E91D0070C6D5 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		FEF351F91B79E91D0070C6D5 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				FEF351FB1B79E96F0070C6D5 /* UIScrollView+VDPosition.h */,
+				FEF351FC1B79E96F0070C6D5 /* UIScrollView+VDPosition.m */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -203,6 +235,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FEF351DC1B79E9080070C6D5 /* Main.storyboard in Resources */,
+				FEF351FA1B79E91D0070C6D5 /* UIScrollView-Position.podspec in Resources */,
 				FEF351E11B79E9080070C6D5 /* LaunchScreen.xib in Resources */,
 				FEF351DE1B79E9080070C6D5 /* Images.xcassets in Resources */,
 			);
@@ -224,6 +257,7 @@
 			files = (
 				FEF351D31B79E9080070C6D5 /* AppDelegate.m in Sources */,
 				FEF351D01B79E9080070C6D5 /* main.m in Sources */,
+				FEF351FD1B79E96F0070C6D5 /* UIScrollView+VDPosition.m in Sources */,
 				FEF351D91B79E9080070C6D5 /* ViewController.m in Sources */,
 				FEF351D61B79E9080070C6D5 /* UIScrollView_Position.xcdatamodeld in Sources */,
 			);
