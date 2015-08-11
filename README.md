@@ -9,7 +9,7 @@
 ## Usage
 ```objective-c
 
-#import "UIScrollView+Position.h"
+#import "UIScrollView+VDPosition.h"
 
 [self.scrollView vd_isReachedTop];
 [self.scrollView vd_isReachedBottom];
